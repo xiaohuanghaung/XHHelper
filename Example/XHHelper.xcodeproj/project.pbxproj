@@ -62,11 +62,11 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94760CE557DF1DB4815A6F10 /* Pods_XHHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XHHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A0D1624927935FA97510E8 /* Pods-XHHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHHelper_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XHHelper_Example/Pods-XHHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CDDEEE9448BCFEC26857B07C /* XHHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XHHelper.podspec; path = ../XHHelper.podspec; sourceTree = "<group>"; };
-		D62E5B02CE76F0490D5DEEED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CDDEEE9448BCFEC26857B07C /* XHHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XHHelper.podspec; path = ../XHHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D62E5B02CE76F0490D5DEEED /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EF9E065456100EA037F658FF /* Pods-XHHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHHelper_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XHHelper_Tests/Pods-XHHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F39947295041DEE63811FE40 /* Pods-XHHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHHelper_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XHHelper_Tests/Pods-XHHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F90D65FA27BC795A3842A4B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F90D65FA27BC795A3842A4B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				0C84376C8AA1327FEA83F14C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -294,24 +293,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0C84376C8AA1327FEA83F14C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-XHHelper_Example/Pods-XHHelper_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/XHHelper/XHHelper.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XHHelper.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XHHelper_Example/Pods-XHHelper_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		0E0F7FF78A79EBA54E6C8878 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

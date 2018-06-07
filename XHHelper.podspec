@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XHHelper'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of XHHelper.'
+  s.version          = '0.0.1'
+  s.summary          = 'XHHelper是一款工具类库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,23 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+XHHelper是一款工具类库，包含了类别、基类等。
                        DESC
 
-  s.homepage         = 'https://github.com/18811574335@163.com/XHHelper'
+  s.homepage         = 'https://github.com/xiaohuanghaung/XHHelper'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '18811574335@163.com' => '18811574335' }
-  s.source           = { :git => 'https://github.com/18811574335@163.com/XHHelper.git', :tag => s.version.to_s }
+  s.author           = { '18811574335@163.com' => 'xiaohuanghuang' }
+  s.source           = { :git => 'https://github.com/xiaohuanghaung/XHHelper.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'XHHelper/Classes/**/*'
+  
+  s.ios.vendored_frameworks = 'Frameworks/XHHelper.framework'
+  
+  s.frameworks = 'UIKit','Foundation'
   
   # s.resource_bundles = {
   #   'XHHelper' => ['XHHelper/Assets/*.png']
