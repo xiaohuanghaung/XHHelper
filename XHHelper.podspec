@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XHHelper'
-  s.version          = '0.0.1'
+  s.version          = '0.0.3'
   s.summary          = 'XHHelper是一款工具类库'
 
 # This description is used to generate tags and improve search results.
