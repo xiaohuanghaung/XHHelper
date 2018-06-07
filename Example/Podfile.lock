@@ -1,0 +1,16 @@
+PODS:
+  - XHHelper (0.0.1)
+
+DEPENDENCIES:
+  - XHHelper (from `../`)
+
+EXTERNAL SOURCES:
+  XHHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XHHelper: 88a7cc4e9ebfa9794bafbabe030cb5eedc62dae6
+
+PODFILE CHECKSUM: efe135b54ef07fcd905a06a9c970bd921664e34d
+
+COCOAPODS: 1.5.3

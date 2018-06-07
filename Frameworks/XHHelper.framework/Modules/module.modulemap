@@ -1,0 +1,6 @@
+framework module XHHelper {
+  umbrella header "XHHelper.h"
+
+  export *
+  module * { export * }
+}
