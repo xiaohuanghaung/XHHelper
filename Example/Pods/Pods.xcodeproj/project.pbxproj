@@ -7,48 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2618490BE06AA1F51F5D7748937632B0 /* Pods-XHHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15362B18DDCD0901EE36521C6E739E39 /* Pods-XHHelper_Example-dummy.m */; };
+		18A09B85DD3ECA1A716AC0EAAD27276D /* Pods-XHHelper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6F27AEAF5BD1A8E3D1937F08534AEF2 /* Pods-XHHelper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3066B0D887B5E1ACA4064DBC4102B617 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		517E764A8D7D4A31EF627332B61FDB8A /* XHHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C499337533FD6B49A688A4FD7D682CB0 /* XHHelper-dummy.m */; };
 		670BF96EF237876E29D29F17F5464212 /* Pods-XHHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EB76AC9F1C2359F3FB1485D03BA5D1 /* Pods-XHHelper_Tests-dummy.m */; };
-		B0FB119D7A9A3BBB6D6DD284EB5E3094 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		76146952105507CC67B145F456C214B5 /* 退出@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = C0BD82BCF9A21354E4FD7D52849445D7 /* 退出@3x.png */; };
+		7D04B3F2F26C98616F7311585A5ECE1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		A9F96FCC2C3A1CE8872E185B077CE093 /* Pods-XHHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15362B18DDCD0901EE36521C6E739E39 /* Pods-XHHelper_Example-dummy.m */; };
 		C99B6E6DE1D86E013BB43C82F3E974DE /* Pods-XHHelper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE2C4B3A4992BB9FA52699853A974687 /* Pods-XHHelper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC40B835D6C3FC2266CE93A8A8B05AF9 /* Pods-XHHelper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6F27AEAF5BD1A8E3D1937F08534AEF2 /* Pods-XHHelper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA924428DBFF657C6E53A910DE2FB0BF /* XHHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13E08A9BEFC93C601B0E18B8F9F06EE2 /* XHHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDD5E7E4AD0698EF85B7E8AD0E600467 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		64C0DA8B5F6F949C6CAC95F025EBDD53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B64E72EFCFCAE00929835B454B0FB69;
+			remoteInfo = XHHelper;
+		};
 		DFC368B9E2C5EED051FFEEE90D7CF3AC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6ADC1865B43D2755544F4AD8927156A2;
+			remoteGlobalIDString = AE6F6C58CF700CBEB6D054364A2CA441;
 			remoteInfo = "Pods-XHHelper_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13E08A9BEFC93C601B0E18B8F9F06EE2 /* XHHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XHHelper-umbrella.h"; sourceTree = "<group>"; };
 		15362B18DDCD0901EE36521C6E739E39 /* Pods-XHHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XHHelper_Example-dummy.m"; sourceTree = "<group>"; };
 		24900FEE7B2B982BD98FD96636C92805 /* Pods-XHHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XHHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		28E493B0623CA61736F57A17AA6952DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ED39CD4033971E827709ED95C4EE69B /* XHHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XHHelper-prefix.pch"; sourceTree = "<group>"; };
 		30922A7DFA1C66AEB47435E24CE55388 /* Pods-XHHelper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XHHelper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3190E0F3BA47D670C453DBDFCFEAAE41 /* Pods_XHHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XHHelper_Example.framework; path = "Pods-XHHelper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		314C73616154BB525F31C91FAD64CC95 /* XHHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XHHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		334556E9D6AC6ED0FEE994D86283C226 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		399FB431D4323AB13818B34CF50E8CF8 /* Pods_XHHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XHHelper_Example.framework; path = "Pods-XHHelper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		493D7F2B5EAB3772E217485C533D50AF /* Pods-XHHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XHHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		50A2E2817307D7CCF94A31A08B0CC634 /* Pods-XHHelper_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XHHelper_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		50B59C455FAF417521BE75F1B0229DE3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56F34834E48ED1DC0C0641950ADC5850 /* Pods-XHHelper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XHHelper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5BCCFDAE1F9C3FE590BBFED54670A004 /* Pods_XHHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XHHelper_Tests.framework; path = "Pods-XHHelper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		631D3D60FF226D486DD75BEBC768A7AF /* Pods_XHHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XHHelper_Tests.framework; path = "Pods-XHHelper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76EB76AC9F1C2359F3FB1485D03BA5D1 /* Pods-XHHelper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XHHelper_Tests-dummy.m"; sourceTree = "<group>"; };
 		77827EA637B940A4CA33DCDC4E50A06B /* Pods-XHHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XHHelper_Tests.modulemap"; sourceTree = "<group>"; };
-		7DD974828831D1F76F25233C2257EEAA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		7E3479CA6961F9345AB3A6E111D30266 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		826B3228E0BF2C651E4CC70E21ABF486 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		827AC6B3133309975180B5812C466B2C /* XHHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XHHelper.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CCC0BAFEF11AE0FDDB8BB08E0FF7B9E /* XHHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XHHelper.xcconfig; sourceTree = "<group>"; };
 		A6CC049D07C4CA214EADCEAECF0EC112 /* Pods-XHHelper_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XHHelper_Tests-resources.sh"; sourceTree = "<group>"; };
 		A6F27AEAF5BD1A8E3D1937F08534AEF2 /* Pods-XHHelper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XHHelper_Example-umbrella.h"; sourceTree = "<group>"; };
 		B5B33590B4CC0FB80BCAB966B7A28888 /* Pods-XHHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XHHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BCD0A7B11885B4C8A22BAB669EFFF1C9 /* Pods-XHHelper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XHHelper_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C0BD82BCF9A21354E4FD7D52849445D7 /* 退出@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "退出@3x.png"; path = "XHHelper/Classes/退出@3x.png"; sourceTree = "<group>"; };
+		C499337533FD6B49A688A4FD7D682CB0 /* XHHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XHHelper-dummy.m"; sourceTree = "<group>"; };
 		C6F1BE788772585E2B89313CC597523A /* Pods-XHHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XHHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C7838BB77AE08B44064DEE4D0D2037C3 /* XHHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XHHelper.framework; path = Frameworks/XHHelper.framework; sourceTree = "<group>"; };
+		D498CC9DC15CE849D0426E039F37043D /* XHHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XHHelper.framework; path = XHHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D91F36D8933AA9274257530ED5F18EB6 /* XHHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XHHelper.framework; path = Frameworks/XHHelper.framework; sourceTree = "<group>"; };
 		DE2C4B3A4992BB9FA52699853A974687 /* Pods-XHHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XHHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E534AFAA32856679149DB700CC06F8F1 /* XHHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XHHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E77E80B5E3F96B6DB31C2FC5EF004A00 /* Pods-XHHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XHHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EE4B28103CF057399343AE38857CE693 /* Pods-XHHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XHHelper_Example.modulemap"; sourceTree = "<group>"; };
 		F2F13001C9A7F4C1B3746C4DAA0D51CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,33 +84,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		670C4E0EFD6A5FB155D2A21A9E2A5258 /* Frameworks */ = {
+		9ED3882BAB99E6755BDDD801D43FC2AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0FB119D7A9A3BBB6D6DD284EB5E3094 /* Foundation.framework in Frameworks */,
+				EDD5E7E4AD0698EF85B7E8AD0E600467 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA7B81D7EEC94531E63342AF9E2E71D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D04B3F2F26C98616F7311585A5ECE1D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F72C52BDFDA99F1B73B16151E6A050D /* Pod */ = {
+		19BE86639DF2DCCB71AD36EA529408BB /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				7DD974828831D1F76F25233C2257EEAA /* LICENSE */,
-				7E3479CA6961F9345AB3A6E111D30266 /* README.md */,
-				E534AFAA32856679149DB700CC06F8F1 /* XHHelper.podspec */,
+				826B3228E0BF2C651E4CC70E21ABF486 /* LICENSE */,
+				334556E9D6AC6ED0FEE994D86283C226 /* README.md */,
+				314C73616154BB525F31C91FAD64CC95 /* XHHelper.podspec */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		25DC9CDD30A40FA7DDE106240066C51C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C7838BB77AE08B44064DEE4D0D2037C3 /* XHHelper.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		2B72BB87BF8A7552378680B042A1D7DC /* Pods-XHHelper_Tests */ = {
@@ -112,10 +131,22 @@
 			path = "Target Support Files/Pods-XHHelper_Tests";
 			sourceTree = "<group>";
 		};
-		331AE2D1172A707A59C225F0B4CADE1B /* Development Pods */ = {
+		2BD95CD7DC20BD289994F400841143DB /* XHHelper */ = {
 			isa = PBXGroup;
 			children = (
-				A27316273A3C07841F3D6EF0F161A86E /* XHHelper */,
+				C0BD82BCF9A21354E4FD7D52849445D7 /* 退出@3x.png */,
+				7CA37EACB9D4FEEC900B25B00ABF7423 /* Frameworks */,
+				19BE86639DF2DCCB71AD36EA529408BB /* Pod */,
+				860481ACD343F9F76135DF8BDB5EC472 /* Support Files */,
+			);
+			name = XHHelper;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		44F90238C288F2AABEABAA288B7A3133 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BD95CD7DC20BD289994F400841143DB /* XHHelper */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -126,15 +157,6 @@
 				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		743AB05B157A7D1B0F15035A01AD526C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3190E0F3BA47D670C453DBDFCFEAAE41 /* Pods_XHHelper_Example.framework */,
-				5BCCFDAE1F9C3FE590BBFED54670A004 /* Pods_XHHelper_Tests.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		7486CFF63BBF04FE1775DCD777E99C74 /* Pods-XHHelper_Example */ = {
@@ -155,13 +177,21 @@
 			path = "Target Support Files/Pods-XHHelper_Example";
 			sourceTree = "<group>";
 		};
+		7CA37EACB9D4FEEC900B25B00ABF7423 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D91F36D8933AA9274257530ED5F18EB6 /* XHHelper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				331AE2D1172A707A59C225F0B4CADE1B /* Development Pods */,
+				44F90238C288F2AABEABAA288B7A3133 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				743AB05B157A7D1B0F15035A01AD526C /* Products */,
+				A1F9AACB20E29FBC17AAC17C45E9C50E /* Products */,
 				8073E93125440E9F3B2D1A00ADE0CDCE /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -175,14 +205,28 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A27316273A3C07841F3D6EF0F161A86E /* XHHelper */ = {
+		860481ACD343F9F76135DF8BDB5EC472 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				25DC9CDD30A40FA7DDE106240066C51C /* Frameworks */,
-				1F72C52BDFDA99F1B73B16151E6A050D /* Pod */,
+				50B59C455FAF417521BE75F1B0229DE3 /* Info.plist */,
+				827AC6B3133309975180B5812C466B2C /* XHHelper.modulemap */,
+				9CCC0BAFEF11AE0FDDB8BB08E0FF7B9E /* XHHelper.xcconfig */,
+				C499337533FD6B49A688A4FD7D682CB0 /* XHHelper-dummy.m */,
+				2ED39CD4033971E827709ED95C4EE69B /* XHHelper-prefix.pch */,
+				13E08A9BEFC93C601B0E18B8F9F06EE2 /* XHHelper-umbrella.h */,
 			);
-			name = XHHelper;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XHHelper";
+			sourceTree = "<group>";
+		};
+		A1F9AACB20E29FBC17AAC17C45E9C50E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				399FB431D4323AB13818B34CF50E8CF8 /* Pods_XHHelper_Example.framework */,
+				631D3D60FF226D486DD75BEBC768A7AF /* Pods_XHHelper_Tests.framework */,
+				D498CC9DC15CE849D0426E039F37043D /* XHHelper.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -196,11 +240,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		CA8925E72A588C2D0EB29AD01CBADB58 /* Headers */ = {
+		8C716DB28E22A1340402EE284394E408 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC40B835D6C3FC2266CE93A8A8B05AF9 /* Pods-XHHelper_Example-umbrella.h in Headers */,
+				CA924428DBFF657C6E53A910DE2FB0BF /* XHHelper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4F83F3C54910B49E3CFD0ABE2724005 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A09B85DD3ECA1A716AC0EAAD27276D /* Pods-XHHelper_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,21 +267,21 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6ADC1865B43D2755544F4AD8927156A2 /* Pods-XHHelper_Example */ = {
+		0B64E72EFCFCAE00929835B454B0FB69 /* XHHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4591F66F475135D30CEBFFBBB5AE592E /* Build configuration list for PBXNativeTarget "Pods-XHHelper_Example" */;
+			buildConfigurationList = 4FE6F71D0493FB2621387CCA115125C6 /* Build configuration list for PBXNativeTarget "XHHelper" */;
 			buildPhases = (
-				8AC197DDE880A824E444B5C806928630 /* Sources */,
-				670C4E0EFD6A5FB155D2A21A9E2A5258 /* Frameworks */,
-				CA8925E72A588C2D0EB29AD01CBADB58 /* Headers */,
+				939A071FD6782EC7B7B060F25BE1F367 /* Sources */,
+				9ED3882BAB99E6755BDDD801D43FC2AD /* Frameworks */,
+				8C716DB28E22A1340402EE284394E408 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-XHHelper_Example";
-			productName = "Pods-XHHelper_Example";
-			productReference = 3190E0F3BA47D670C453DBDFCFEAAE41 /* Pods_XHHelper_Example.framework */;
+			name = XHHelper;
+			productName = XHHelper;
+			productReference = D498CC9DC15CE849D0426E039F37043D /* XHHelper.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AC386630089C04152EF1890D9029D377 /* Pods-XHHelper_Tests */ = {
@@ -247,7 +299,25 @@
 			);
 			name = "Pods-XHHelper_Tests";
 			productName = "Pods-XHHelper_Tests";
-			productReference = 5BCCFDAE1F9C3FE590BBFED54670A004 /* Pods_XHHelper_Tests.framework */;
+			productReference = 631D3D60FF226D486DD75BEBC768A7AF /* Pods_XHHelper_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE6F6C58CF700CBEB6D054364A2CA441 /* Pods-XHHelper_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C949ABA2223B63FF8230B64C55D330C3 /* Build configuration list for PBXNativeTarget "Pods-XHHelper_Example" */;
+			buildPhases = (
+				A7CB95A92E0B71F4C395A59DB986FE0E /* Sources */,
+				CA7B81D7EEC94531E63342AF9E2E71D7 /* Frameworks */,
+				C4F83F3C54910B49E3CFD0ABE2724005 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D69CFEF8D3728158B9881659376E2CD0 /* PBXTargetDependency */,
+			);
+			name = "Pods-XHHelper_Example";
+			productName = "Pods-XHHelper_Example";
+			productReference = 399FB431D4323AB13818B34CF50E8CF8 /* Pods_XHHelper_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -267,22 +337,32 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 743AB05B157A7D1B0F15035A01AD526C /* Products */;
+			productRefGroup = A1F9AACB20E29FBC17AAC17C45E9C50E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6ADC1865B43D2755544F4AD8927156A2 /* Pods-XHHelper_Example */,
+				AE6F6C58CF700CBEB6D054364A2CA441 /* Pods-XHHelper_Example */,
 				AC386630089C04152EF1890D9029D377 /* Pods-XHHelper_Tests */,
+				0B64E72EFCFCAE00929835B454B0FB69 /* XHHelper */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8AC197DDE880A824E444B5C806928630 /* Sources */ = {
+		939A071FD6782EC7B7B060F25BE1F367 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2618490BE06AA1F51F5D7748937632B0 /* Pods-XHHelper_Example-dummy.m in Sources */,
+				517E764A8D7D4A31EF627332B61FDB8A /* XHHelper-dummy.m in Sources */,
+				76146952105507CC67B145F456C214B5 /* 退出@3x.png in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CB95A92E0B71F4C395A59DB986FE0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F96FCC2C3A1CE8872E185B077CE093 /* Pods-XHHelper_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,17 +380,22 @@
 		A0F7E77CE05DA293C455E5B10DEAD6B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-XHHelper_Example";
-			target = 6ADC1865B43D2755544F4AD8927156A2 /* Pods-XHHelper_Example */;
+			target = AE6F6C58CF700CBEB6D054364A2CA441 /* Pods-XHHelper_Example */;
 			targetProxy = DFC368B9E2C5EED051FFEEE90D7CF3AC /* PBXContainerItemProxy */;
+		};
+		D69CFEF8D3728158B9881659376E2CD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XHHelper;
+			target = 0B64E72EFCFCAE00929835B454B0FB69 /* XHHelper */;
+			targetProxy = 64C0DA8B5F6F949C6CAC95F025EBDD53 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2F3EE9B71C289E80A328642479827717 /* Debug */ = {
+		0B25540356FC33B7E808CD1752222C56 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E77E80B5E3F96B6DB31C2FC5EF004A00 /* Pods-XHHelper_Example.debug.xcconfig */;
+			baseConfigurationReference = 9CCC0BAFEF11AE0FDDB8BB08E0FF7B9E /* XHHelper.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -320,26 +405,55 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XHHelper_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/XHHelper/XHHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XHHelper/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XHHelper_Example/Pods-XHHelper_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/XHHelper/XHHelper.modulemap";
+				PRODUCT_MODULE_NAME = XHHelper;
+				PRODUCT_NAME = XHHelper;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		370279792454BE38CECDED9233F54173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CCC0BAFEF11AE0FDDB8BB08E0FF7B9E /* XHHelper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XHHelper/XHHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XHHelper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XHHelper/XHHelper.modulemap";
+				PRODUCT_MODULE_NAME = XHHelper;
+				PRODUCT_NAME = XHHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		37BA22A8E981E3568D73C124B7CA7939 /* Release */ = {
+		3FC7789364DBA169F416D50A18820AB5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C6F1BE788772585E2B89313CC597523A /* Pods-XHHelper_Example.release.xcconfig */;
 			buildSettings = {
@@ -372,6 +486,39 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		86E35A6B572C3098E309E948F44B0C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E77E80B5E3F96B6DB31C2FC5EF004A00 /* Pods-XHHelper_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XHHelper_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XHHelper_Example/Pods-XHHelper_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -573,11 +720,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4591F66F475135D30CEBFFBBB5AE592E /* Build configuration list for PBXNativeTarget "Pods-XHHelper_Example" */ = {
+		4FE6F71D0493FB2621387CCA115125C6 /* Build configuration list for PBXNativeTarget "XHHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2F3EE9B71C289E80A328642479827717 /* Debug */,
-				37BA22A8E981E3568D73C124B7CA7939 /* Release */,
+				370279792454BE38CECDED9233F54173 /* Debug */,
+				0B25540356FC33B7E808CD1752222C56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -587,6 +734,15 @@
 			buildConfigurations = (
 				F1A181546D949D2FF4DCC0ECFE752DD3 /* Debug */,
 				9DC7AF999CFB0BC244816700F1CB5664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C949ABA2223B63FF8230B64C55D330C3 /* Build configuration list for PBXNativeTarget "Pods-XHHelper_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86E35A6B572C3098E309E948F44B0C0A /* Debug */,
+				3FC7789364DBA169F416D50A18820AB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

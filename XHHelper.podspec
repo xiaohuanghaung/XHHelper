@@ -30,11 +30,11 @@ XHHelper是一款工具类库，包含了类别、基类等。
 
   s.ios.deployment_target = '8.0'
 
-  #s.source_files = 'XHHelper/Classes/**/*'
+  s.source_files = 'XHHelper/Classes/**/*'
   
   s.ios.vendored_frameworks = 'Frameworks/XHHelper.framework'
   
-  s.frameworks = 'UIKit','Foundation'
+  #s.frameworks = 'UIKit','Foundation'
   
   # s.resource_bundles = {
   #   'XHHelper' => ['XHHelper/Assets/*.png']

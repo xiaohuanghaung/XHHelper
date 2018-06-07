@@ -21,9 +21,5 @@
   "source_files": "XHHelper/Classes/**/*",
   "ios": {
     "vendored_frameworks": "Frameworks/XHHelper.framework"
-  },
-  "frameworks": [
-    "UIKit",
-    "Foundation"
-  ]
+  }
 }
