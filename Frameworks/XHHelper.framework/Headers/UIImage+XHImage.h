@@ -2,7 +2,7 @@
 //  UIImage+XHImage.h
 //  XHEasy
 //
-//  Created by 黄成瑞 on 2015/8/3.
+//  Created by 黄成瑞 on 2015/8/13.
 //  Copyright © 2018年 XiaoHuangHuang. All rights reserved.
 //
 

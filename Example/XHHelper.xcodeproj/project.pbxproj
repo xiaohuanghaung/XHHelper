@@ -15,15 +15,14 @@
 		6003F59E195388D20070C39A /* XHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* XHAppDelegate.m */; };
 		6003F5A7195388D20070C39A /* XHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* XHViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
-		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		608874625597CD494D07CDF2 /* Pods_XHHelper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94760CE557DF1DB4815A6F10 /* Pods_XHHelper_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		7C1A8AC0C37CB67C07F28745 /* Pods_XHHelper_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8235D3E3A593E0044E6FF63C /* Pods_XHHelper_Tests.framework */; };
-		80B3528930B01520EE2F467D /* Pods_XHHelper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94760CE557DF1DB4815A6F10 /* Pods_XHHelper_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		8E67ACCE20CE5AEC003566A0 /* XHHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E67ACCD20CE5AEC003566A0 /* XHHelper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +59,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8235D3E3A593E0044E6FF63C /* Pods_XHHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XHHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E52026520CE237600904B62 /* XHHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XHHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E52026720CE485400904B62 /* XHHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XHHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E52026C20CE4A6A00904B62 /* Pods_XHHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_XHHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E67ACCD20CE5AEC003566A0 /* XHHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XHHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94760CE557DF1DB4815A6F10 /* Pods_XHHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XHHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A0D1624927935FA97510E8 /* Pods-XHHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHHelper_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XHHelper_Example/Pods-XHHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CDDEEE9448BCFEC26857B07C /* XHHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XHHelper.podspec; path = ../XHHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -77,7 +80,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				80B3528930B01520EE2F467D /* Pods_XHHelper_Example.framework in Frameworks */,
+				608874625597CD494D07CDF2 /* Pods_XHHelper_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,10 +88,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
+				8E67ACCE20CE5AEC003566A0 /* XHHelper.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				7C1A8AC0C37CB67C07F28745 /* Pods_XHHelper_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +132,10 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8E67ACCD20CE5AEC003566A0 /* XHHelper.framework */,
+				8E52026C20CE4A6A00904B62 /* Pods_XHHelper_Tests.framework */,
+				8E52026720CE485400904B62 /* XHHelper.framework */,
+				8E52026520CE237600904B62 /* XHHelper.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -444,6 +450,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)";
 			};
 			name = Debug;
 		};
@@ -476,6 +483,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -487,10 +495,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XHHelper/XHHelper-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "XHHelper/XHHelper-Info.plist";
+				LIBRARY_SEARCH_PATHS = "";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -502,10 +513,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XHHelper/XHHelper-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "XHHelper/XHHelper-Info.plist";
+				LIBRARY_SEARCH_PATHS = "";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

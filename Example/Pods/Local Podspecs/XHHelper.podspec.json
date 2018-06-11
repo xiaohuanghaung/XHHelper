@@ -1,6 +1,6 @@
 {
   "name": "XHHelper",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "summary": "XHHelper是一款工具类库",
   "description": "XHHelper是一款工具类库，包含了类别、基类等。",
   "homepage": "https://github.com/xiaohuanghaung/XHHelper",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/xiaohuanghaung/XHHelper.git",
-    "tag": "0.0.1"
+    "tag": "0.0.3"
   },
   "platforms": {
     "ios": "8.0"

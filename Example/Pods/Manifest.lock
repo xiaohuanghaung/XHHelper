@@ -1,5 +1,5 @@
 PODS:
-  - XHHelper (0.0.1)
+  - XHHelper (0.0.3)
 
 DEPENDENCIES:
   - XHHelper (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XHHelper: de9a349c9e43f0723be20e95a365e87f9c84899e
+  XHHelper: d4fc294a0350418a667d645b73c807dc4bc937ce
 
 PODFILE CHECKSUM: efe135b54ef07fcd905a06a9c970bd921664e34d
 
