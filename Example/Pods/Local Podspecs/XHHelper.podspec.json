@@ -1,6 +1,6 @@
 {
   "name": "XHHelper",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "summary": "XHHelper是一款工具类库",
   "description": "XHHelper是一款工具类库，包含了类别、基类等。",
   "homepage": "https://github.com/xiaohuanghaung/XHHelper",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/xiaohuanghaung/XHHelper.git",
-    "tag": "0.0.3"
+    "tag": "0.0.6"
   },
   "platforms": {
     "ios": "8.0"
@@ -21,5 +21,13 @@
   "source_files": "XHHelper/Classes/**/*",
   "ios": {
     "vendored_frameworks": "Frameworks/XHHelper.framework"
+  },
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.2.1"
+    ],
+    "MBProgressHUD": [
+      "~> 1.1.0"
+    ]
   }
 }

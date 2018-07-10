@@ -1,0 +1,85 @@
+//
+//  XHHelperPCH.pch
+//  XHHelper
+//
+//  Created by 小黄黄 on 2015/5/11.
+//  Copyright © 2015年 XiaoHuangHuang. All rights reserved.
+//
+
+#ifndef XHHelperPCH_pch
+#define XHHelperPCH_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+/*
+ 调试打印
+ */
+#define XHLog(fmt,...)                      NSLog((@"%s,[XH行号:%d]" fmt),__PRETTY_FUNCTION__,__LINE__,##__VA_ARGS__)
+
+/*
+ 屏幕大小
+ */
+#define XH_Device                           [UIScreen mainScreen].bounds
+#define XH_Device_W                         [UIScreen mainScreen].bounds.size.width
+#define XH_Device_H                         [UIScreen mainScreen].bounds.size.height
+
+/*
+ Frame设置
+ */
+#define XH_Frame(x, y, w, h)                CGRectMake(x, y, w, h)
+
+/*
+ 快速获取UIImage
+ */
+#define XH_Image(imageName)                 [UIImage imageNamed:[NSString stringWithFormat:@"%@",imageName]]
+
+/*
+ 十六进制颜色
+ */
+#define XH_Color_16(hexadecimalString)      [UIColor colorWithHexadecimalString:[NSString stringWithFormat:@"%@",hexadecimalString]]
+
+/*
+ RGB颜色
+ */
+#define XH_Color_RGB(r, g, b, a)            [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+
+/*
+ 唯一标示（UUID）(因为静态库原因，暂未修复，切勿使用)
+ */
+#define XHUUID                              [NSString getDeviceId]
+
+/*
+ 当前APP版本
+ */
+#define XH_Current_AppVersion               [[[NSBundle mainBundle] infoDictionary]objectForKey:@"CFBundleShortVersionString"]
+
+/*
+ 当前系统版本
+ */
+#define XH_Current_SystemVersion            [[UIDevice currentDevice] systemVersion].floatValue
+
+/*
+ 当前UIWindow
+ */
+#define XH_Current_Window                   [UIApplication sharedApplication].keyWindow
+
+/*
+ 字体
+ */
+#define XH_Font(fontName, fontSize) [UIFont fontWithName:fontName size:fontSize]
+#define XH_Font_PingFangSCLight             @"PingFangSC-Light"
+#define XH_Font_PingFangSCMedium            @"PingFangSC-Medium"
+#define XH_Font_PingFangSCRegular           @"PingFangSC-Regular"
+
+/*
+ XH_WEAKSELF(weakSelf)
+ */
+#define XH_WEAKSELF(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+
+/*
+ NSUserDefaults
+ */
+#define XH_NSUserDefaults                   [NSUserDefaults standardUserDefaults]
+
+#endif /* XHHelperPCH_pch */

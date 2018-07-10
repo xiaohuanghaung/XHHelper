@@ -2,8 +2,8 @@
 //  NSData+XHData.h
 //  XHEasy
 //
-//  Created by 黄成瑞 on 2015/8/13.
-//  Copyright © 2018年 XiaoHuangHuang. All rights reserved.
+//  Created by 小黄黄 on 2015/5/13.
+//  Copyright © 2015年 XiaoHuangHuang. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

@@ -2,8 +2,8 @@
 //  XHRuntimeKit.h
 //  XHEasy
 //
-//  Created by 黄成瑞 on 2015/8/13.
-//  Copyright © 2018年 XiaoHuangHuang. All rights reserved.
+//  Created by 小黄黄 on 2015/5/13.
+//  Copyright © 2015年 XiaoHuangHuang. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -22,7 +22,6 @@
 
 // 获取类的实例方法列表（getter、setter、对象方法）
 + (NSArray *)xh_fetchInstanceMethodList:(Class)class;
-
 
 // 获取协议列表
 + (NSArray *)xh_fetchProtocolList:(Class)class;

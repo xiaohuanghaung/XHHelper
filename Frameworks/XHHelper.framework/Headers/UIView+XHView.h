@@ -2,13 +2,14 @@
 //  UIView+XHView.h
 //  XHEasy
 //
-//  Created by 黄成瑞 on 2015/8/13.
-//  Copyright © 2018年 XiaoHuangHuang. All rights reserved.
+//  Created by 小黄黄 on 2015/5/13.
+//  Copyright © 2015年 XiaoHuangHuang. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import "MBProgressHUD.h"
-#import "MBProgressHUD+XHH.h"
+
+#define XHSuccessImageName  @"XH_HUD_Checkmark"
+#define XHFailImageName     @"XH_HUD_ErrorIM"
 
 @interface UIView (XHView)
 
@@ -37,16 +38,16 @@
 - (void)showHUDWithTitle:(NSString *)title detail:(NSString *)detail;
 
 #pragma mark - 圆圈1
-- (void)showHUDYQ1;
+- (id)showHUDYQ1;
 
 #pragma mark - 圆圈1+文字
-- (void)showHUDYQ1WithTitle:(NSString *)title;
+- (id)showHUDYQ1WithTitle:(NSString *)title;
 
 #pragma mark - 圆圈2
-- (void)showHUDYQ2;
+- (id)showHUDYQ2;
 
 #pragma mark - 圆圈2+文字
-- (void)showHUDYQ2WithTitle:(NSString *)title;
+- (id)showHUDYQ2WithTitle:(NSString *)title;
 
 #pragma mark - 横线
 - (void)showHUDHX;

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XHHelper'
-  s.version          = '0.0.3'
+  s.version          = '0.0.6'
   s.summary          = 'XHHelper是一款工具类库'
   
 
@@ -43,5 +43,6 @@ XHHelper是一款工具类库，包含了类别、基类等。
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+ s.dependency 'AFNetworking', '~> 3.2.1'
+ s.dependency 'MBProgressHUD', '~> 1.1.0'
 end
