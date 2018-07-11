@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-#define XHSuccessImageName  @"XH_HUD_Checkmark"
-#define XHFailImageName     @"XH_HUD_ErrorIM"
+#define XHSuccessImageName  @"XH_HUD_Success"
+#define XHFailImageName     @"XH_HUD_Error"
 
 @interface UIView (XHView)
 
