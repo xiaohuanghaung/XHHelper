@@ -19,7 +19,7 @@
 {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor xh_colorWithHex:@"333333"];
-//    [self.view showHUDSuccessWithTitle:@"成功了"];
+    [self.view showHUDSuccessWithTitle:@"成功了"];
 //    [self.view showHUDSuccess];
 //    [self showHUDSuccessWithTitle:@"成功啦"];
 //    [self showHUDSuccess];
