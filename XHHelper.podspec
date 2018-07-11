@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XHHelper'
-  s.version          = '0.0.9'
+  s.version          = '1.0.0'
   s.summary          = 'XHHelper是一款工具类库'
   
 
