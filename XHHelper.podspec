@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XHHelper'
-  s.version          = '1.0.2'
+  s.version          = '1.0.5'
   s.summary          = 'XHHelper是一款工具类库'
   
 
@@ -35,7 +35,7 @@ XHHelper是一款工具类库，包含了类别、基类等。
   
   s.ios.vendored_frameworks = 'Frameworks/XHHelper.framework'
   
-  s.resources = "Frameworks/XHHelperResource.Bundle"
+  s.resources = 'Frameworks/XHHelperResource.Bundle'
   
   #s.frameworks = 'UIKit','Foundation'
   
