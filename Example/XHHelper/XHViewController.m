@@ -7,6 +7,7 @@
 //
 
 #import "XHViewController.h"
+#import <XHHelper/XHHelper.h>
 
 @interface XHViewController ()
 
@@ -17,8 +18,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-//    self.view.backgroundColor = [UIColor xh_colorWithHex:@"333333"];
-//    self.view.backgroundColor = [UIColor xh_colorWithHex:@"333333"];
+    self.view.backgroundColor = [UIColor xh_colorWithHex:@"333333"];
+//    [self.view showHUDSuccessWithTitle:@"成功了"];
+//    [self.view showHUDSuccess];
+//    [self showHUDSuccessWithTitle:@"成功啦"];
+//    [self showHUDSuccess];
+//    [self showHUDError];
+    self.view.backgroundColor = [UIColor xh_colorWithHex:@"333333"];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

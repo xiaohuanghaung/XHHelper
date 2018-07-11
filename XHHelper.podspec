@@ -35,6 +35,8 @@ XHHelper是一款工具类库，包含了类别、基类等。
   
   s.ios.vendored_frameworks = 'Frameworks/XHHelper.framework'
   
+  s.resources = "Frameworks/XHHelperResource.Bundle"
+  
   #s.frameworks = 'UIKit','Foundation'
   
   # s.resource_bundles = {
