@@ -6,6 +6,12 @@
 //  Copyright © 2015年 XiaoHuangHuang. All rights reserved.
 //
 
+/*
+ 小黄引导：
+ 
+ 一、本地图片名称 转换 NSData数据
+ */
+
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 

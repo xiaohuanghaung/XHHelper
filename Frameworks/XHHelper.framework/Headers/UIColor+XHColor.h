@@ -6,6 +6,12 @@
 //  Copyright © 2015年 XiaoHuangHuang. All rights reserved.
 //
 
+/*
+ 小黄引导：
+ 
+ 一、十六进制颜色转换
+ */
+
 #import <UIKit/UIKit.h>
 
 @interface UIColor (XHColor)

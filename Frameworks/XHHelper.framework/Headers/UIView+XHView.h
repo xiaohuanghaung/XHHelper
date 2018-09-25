@@ -6,7 +6,15 @@
 //  Copyright © 2015年 XiaoHuangHuang. All rights reserved.
 //
 
+/*
+ 小黄引导：
+ 
+ 一、快速设置圆角、边框、阴影
+ 二、指示器
+ */
+
 #import <UIKit/UIKit.h>
+#import "MBProgressHUD.h"
 #define XHSuccessImageName  @"XH_HUD_Success"
 #define XHFailImageName     @"XH_HUD_Error"
 
@@ -68,5 +76,8 @@
 
 #pragma mark - 隐藏HUD
 - (void)hiddenHUD;
+
+#pragma mark - 显示自定义HUD
+- (MBProgressHUD *)xh_showCustomHUD;
 
 @end

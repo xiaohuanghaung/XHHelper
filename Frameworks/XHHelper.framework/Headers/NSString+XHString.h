@@ -6,9 +6,15 @@
 //  Copyright © 2015年 XiaoHuangHuang. All rights reserved.
 //
 
-/**
- NSString的类别
+/*
+ 小黄引导：
+ 
+ 一、字符串MD5加密
+ 二、常用正则表达式
+ 三、时间戳、时间相互转换
+ 四、获取字符串高度、宽度
  */
+
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 

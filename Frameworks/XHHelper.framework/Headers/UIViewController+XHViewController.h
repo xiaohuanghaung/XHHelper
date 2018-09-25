@@ -6,24 +6,22 @@
 //  Copyright © 2015年 XiaoHuangHuang. All rights reserved.
 //
 
+/*
+ 小黄引导：
+ 
+ 一、Navigation的一些常用设置
+ 二、状态栏的设置
+ 三、Push控制器和Pop控制器
+ 四、指示器
+ */
+
 #import <UIKit/UIKit.h>
+#import "MBProgressHUD.h"
 #define XHSuccessImageName  @"XH_HUD_Success"
 #define XHFailImageName     @"XH_HUD_Error"
 
 @interface UIViewController (XHViewController)
 
-/*
- 1.设置title标题
- 2.设置NavBar的颜色 和 标题title文字颜色
- 3.设置BackgroundImage
- 4.设置系统返回按钮的显示和隐藏
- 5.设置左按钮
- 6.设置右按钮
- 7.设置NavBar的显示和隐藏
- 8.设置NavBar下面的线的显示和隐藏
- 9.自定义NavBar
- 10.设置NavBar下面线条的背景图
- */
 #pragma mark - 1.设置title标题
 - (void)setXHNavBarTitle:(NSString *)title;
 
@@ -125,5 +123,8 @@
 
 #pragma mark - 隐藏HUD
 - (void)hiddenHUD;
+
+#pragma mark - 显示自定义HUD
+- (MBProgressHUD *)xh_showCustomHUD;
 
 @end

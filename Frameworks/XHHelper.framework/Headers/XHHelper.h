@@ -21,8 +21,9 @@ FOUNDATION_EXPORT const unsigned char XHHelperVersionString[];
 #import <XHHelper/UIColor+XHColor.h>
 #import <XHHelper/UIImage+XHImage.h>
 #import <XHHelper/UIView+XHView.h>
-#import <XHHelper/XHRuntimeKit.h>
 #import <XHHelper/XHAFNetworking.h>
+#import <XHHelper/XHTabBarViewController.h>
+#import <XHHelper/NSObject+XHNSObject.h>
 
 // In this header, you should import all the public headers of your framework using statements like #import <XHHelper/PublicHeader.h>
 

@@ -6,6 +6,12 @@
 //  Copyright © 2015年 XiaoHuangHuang. All rights reserved.
 //
 
+/*
+ 小黄引导：
+ 
+ 一、图片的处理
+ */
+
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
 
