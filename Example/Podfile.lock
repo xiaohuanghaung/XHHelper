@@ -16,7 +16,7 @@ PODS:
     - AFNetworking/NSURLSession
   - MBProgressHUD (1.1.0)
   - PPBadgeView (2.1.0)
-  - XHHelper (1.0.6):
+  - XHHelper (1.0.7):
     - AFNetworking (~> 3.2.1)
     - MBProgressHUD (~> 1.1.0)
     - PPBadgeView (~> 2.1.0)
@@ -38,7 +38,7 @@ SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   PPBadgeView: 167006b3497ebb6222942313a6b827e79791aae6
-  XHHelper: d1193e50f395749c3e15cbd444bf78475997e46e
+  XHHelper: 68ca25fe514ccb31e5f3049b32386a5743c72175
 
 PODFILE CHECKSUM: efe135b54ef07fcd905a06a9c970bd921664e34d
 

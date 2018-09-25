@@ -1,16 +1,22 @@
 //
-//  XHRuntimeKit.h
-//  XHEasy
+//  NSObject+XHNSObject.h
+//  XHTest
 //
-//  Created by 小黄黄 on 2015/5/13.
-//  Copyright © 2015年 XiaoHuangHuang. All rights reserved.
+//  Created by 黄成瑞 on 2018/7/30.
+//  Copyright © 2018年 XiaoHuangHuang. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+@interface NSObject (XHNSObject)
+
+#pragma mark ********      获取当前Window      ********
+// 获取当前Window
++ (UIWindow *)xh_getCurrentWindow;
 
 
-@interface XHRuntimeKit : NSObject
-
+#pragma mark ********      Runtime常用      ********
 // 获取类名
 + (NSString *)xh_fetchClassName:(Class)class;
 
